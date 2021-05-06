@@ -1,0 +1,9 @@
+<toolSet name="BuildPlatform">
+  <tool name="BuildWindows" description="BuildWindows" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$Projectpath$\simulator\build_windows.bat" />
+      <option name="PARAMETERS" value="1" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

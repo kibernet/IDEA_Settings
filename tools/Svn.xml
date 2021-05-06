@@ -1,0 +1,79 @@
+<toolSet name="Svn">
+  <tool name="SvnUpdate" description="Svn更新" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:update /path:$FilePath$ /closeonend:2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnLog" description="Svn日志" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:log /path:$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnCommit" description="Svn提交" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:commit /path:$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnBlame" description="Svn追溯" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:blame /path:$FilePath$ /startrev:1 /endrev:-1 /line:$LineNumber$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnDiff" description="Svn差异" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:diff /path:$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnUpdateRoot" description="Svn根目录更新" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:update /path:$Projectpath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnLogRoot" description="Svn根目录日志" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value=" /command:log /path:$Projectpath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnCommitRoot" description="Svn根目录提交" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value=" /command:commit /path:$Projectpath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnUpdateDir" description="Svn当前目录更新" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:update /path:$FileDir$ /closeonend:2" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnLogDir" description="Svn当前目录日志" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:log /path:$FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="SvnCommitDir" description="Svn当前目录提交" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="D:\TortoiseSVN\bin\TortoiseProc.exe" />
+      <option name="PARAMETERS" value="/command:commit /path:$FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

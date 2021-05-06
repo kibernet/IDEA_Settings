@@ -1,0 +1,9 @@
+<toolSet name="UpdateLuaConfig">
+  <tool name="UpdateLuaConfig" description="UpdateLuaConfig" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$Projectpath$\tools\idea_tools\update_lua_config.bat" />
+      <option name="PARAMETERS" value="$Projectpath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
