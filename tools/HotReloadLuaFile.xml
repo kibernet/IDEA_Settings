@@ -2,7 +2,7 @@
   <tool name="HotReloadLuaFile" description="热加载lua文件" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$Projectpath$\tools\idea_tools\hot_reload_lua_file.bat" />
-      <option name="PARAMETERS" value="-lua_file_path $FilePathRelativeToProjectRoot$" />
+      <option name="PARAMETERS" value="event_name reload_lua_file lua_file_path $FilePathRelativeToProjectRoot$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
