@@ -1,0 +1,24 @@
+<application>
+  <component name="LuaCheckSettings">
+    <option name="luaCheck" value="" />
+    <option name="luaCheckArgs" value="" />
+  </component>
+  <component name="LuaSettings">
+    <option name="constructorNames">
+      <array>
+        <option value="new" />
+        <option value="get" />
+        <option value="create" />
+      </array>
+    </option>
+    <option name="constructorNamesString" value="new;get;create" />
+    <option name="requireLikeFunctionNames">
+      <array>
+        <option value="require" />
+        <option value="framework_require" />
+        <option value="hall_require" />
+      </array>
+    </option>
+    <option name="requireLikeFunctionNamesString" value="require;framework_require;hall_require" />
+  </component>
+</application>
